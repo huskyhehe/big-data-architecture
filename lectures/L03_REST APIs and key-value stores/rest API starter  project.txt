@@ -1,0 +1,7 @@
+First, download eclipse STS. I use version 3.7.3 (https://spring.io/tools/sts/all)
+once installed, from the file menu choose new and then select "import spring getting started content"
+from the list, select "Spring boot" (make sure you have the checkbox for the maven build type selected.)
+The last action should import a working project into your eclipse workspace
+then, follow the instruction at this URL:https://spring.io/guides/gs/spring-boot/
+
+After doing the above steps, you should have a working rest API sample. Note that the Java files that you are most interested in is HelloController.java as it is the controller implementation. For now, you don't have to change any other file in the project.

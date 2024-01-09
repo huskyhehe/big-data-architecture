@@ -1,0 +1,27 @@
+{
+	"_name": "Entry",
+	"_type": "Entry",
+	"_org": "logoilabs.com",
+	"_id": "Entry",
+	"objectId": "Entry",
+	"properties": [{
+		"_name": "reference",
+		"dataType": "boolean",
+		"_type": "Field",
+		"_org": "logoilabs.com",
+		"_id": "Entry----reference",
+		"isFieldOf": "Entry",
+		"objectId": "Entry----reference",
+		"objectType": "Field"
+	}, {
+		"_name": "properties",
+		"dataType": ["Field"],
+		"_type": "Field",
+		"_org": "logoilabs.com",
+		"_id": "Entry----properties",
+		"isFieldOf": "Entry",
+		"objectId": "Entry----properties",
+		"objectType": "Field"
+	}],
+	"objectType": "Entry"
+}

@@ -1,0 +1,202 @@
+{
+	"_id": "Field",
+	"_type": "Entry",
+	"objectType": "Entry",
+	"objectId": "Field",
+	"_name": "Field",
+	"_comment": "Field description",
+	"properties": [
+
+		{
+			"_id": "Field----dataType",
+			"objectId": "Field----dataType",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "dataType",
+			"dataType": "any",
+			"_comment": "dataType description",
+			"isFieldOf": "Field"
+		},
+
+		{
+			"_id": "Field----enum",
+			"objectId": "Field----enum",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "enum",
+			"dataType": "any",
+			"_comment": "enumeration",
+			"isFieldOf": "Field"
+		},
+{
+			"_id": "Field----default",
+			"objectId": "Field----default",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "default",
+			"dataType": "any",
+			"_comment": "default",
+			"isFieldOf": "Field"
+		}, {
+			"_id": "Field----minLength",
+			"objectId": "Field----minLength",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "minLength",
+			"dataType": "int",
+			"_comment": "use with string only",
+			"intersection": "./:Field;dataType = string",
+			"isFieldOf": "Field"
+
+		}, {
+			"_id": "Field----maxLength",
+			"objectId": "Field----maxLength",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "maxLength",
+			"dataType": "int",
+			"_comment": "use with string only",
+			"intersection": "./:Field;dataType = string",
+			"isFieldOf": "Field"
+		}, {
+			"_id": "Field----minimum",
+			"objectId": "Field----minimum",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "minimum",
+			"dataType": "float",
+			"_comment": "use with numbers",
+			"intersection": "./:Field; dataType= int, long, double, float",
+			"isFieldOf": "Field"
+
+		}, {
+			"_id": "Field----maximum",
+			"objectId": "Field----maximum",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "maximum",
+			"dataType": "float",
+			"_comment": "use with numbers",
+			"intersection": "./:Field;dataType = float",
+			"isFieldOf": "Field"
+
+		}, {
+			"_id": "Field----minItems",
+			"objectId": "Field----minItems",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "minItems",
+			"dataType": [
+				"int"
+			],
+			"_comment": "use with lists",
+			"isFieldOf": "Field"
+
+		}, {
+			"_id": "Field----maxItems ",
+			"objectId": "Field----maxItems ",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "maxItems",
+			"dataType": [
+				"int"
+			],
+			"_comment": "use with lists",
+			"isFieldOf": "Field"
+
+		}, {
+			"_id": "Field----sequence",
+			"objectId": "Field----sequence",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "sequence",
+			"dataType": "int",
+			"_comment": "track the order of the properties",
+			"isFieldOf": "Field",
+			"sequence": 13
+		}, {
+			"_id": "Field----restriction",
+			"objectId": "Field----restriction",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "restriction",
+			"dataType": "string",
+			"_comment": "track the order of the properties",
+			"isFieldOf": "Field",
+			"sequence": 14
+		}, {
+			"_id": "Field----disjoint",
+			"objectId": "Field----disjoint",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "disjoint",
+			"dataType": "string",
+			"_comment": "track the order of the properties",
+			"isFieldOf": "Field",
+			"sequence": 15
+		}, {
+			"_id": "Field----intersection",
+			"objectId": "Field----intersection",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "intersection",
+			"dataType": "string",
+			"_comment": "track the order of the properties",
+			"isFieldOf": "Field",
+			"sequence": 16
+		}, {
+			"_id": "Field----setValue",
+			"objectId": "Field----setValue",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "setValue",
+			"dataType": "string",
+			"_comment": "track the order of the properties",
+			"isFieldOf": "Field",
+			"sequence": 17
+		},
+		{
+			"_id": "Field----isFieldOf",
+			"objectId": "Field----isFieldOf",
+			"objectType": "Field",
+			"_type": "Field",
+			"_name": "isFieldOf",
+			"dataType": "string",
+			"_comment": "track the order of the properties",
+			"isFieldOf": "Field",
+			"sequence": 19
+		}, 
+		 {
+		"_id": "Field----statement",
+		"objectId": "Field----statement",
+        "_type": "Field",
+		"objectType": "Field",
+        "_name": "statement",
+        "dataType": ["string"],
+        "_comment": "track the order of the properties",
+      "isFieldOf": "Field",
+        "sequence": 20
+    },
+		{
+			"_id": "Field----required",
+			"objectId": "Field----required",
+			"objectType": "Field",
+			"_type": "Field",
+			"_name": "required",
+			"dataType": "boolean",
+			"_comment": "track the order of the properties",
+			"isFieldOf": "Field",
+			"sequence": 21
+		},{
+			"_id": "Field----isEvaluated",
+			"objectId": "Field----isEvaluated",
+			"_type": "Field",
+			"objectType": "Field",
+			"_name": "isEvaluated",
+			"dataType": "boolean",
+			"_comment": "track the order of the properties",
+			"isFieldOf": "Field",
+			"sequence": 18
+		}
+	]
+}
